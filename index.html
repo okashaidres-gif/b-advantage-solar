@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADVANtech | بنية تحتية كهربائية بموثوقية هندسية تامة</title>
+    <title>Be AdvanTech | Smart Solar & Energy Solutions</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Be AdvanTech | Smart Solar & Energy Solutions">
+    <meta property="og:description" content="شركة سودانية رائدة متخصصة في هندسة وتطوير حلول الطاقة الشمسية والأنظمة الذكية، تخدم القطاعات السكنية والتجارية والصناعية والزراعية في السودان.">
+    <meta property="og:image" content="https://i.ibb.co/1jn5n5m/logo.png">
+    <meta property="og:url" content="https://advantech.sd">
+    <meta property="og:type" content="website">
     
     <!-- Google Fonts: Cairo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,7 +123,8 @@
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center gap-8">
                     <a href="#home" class="text-brand-muted hover:text-white transition-colors text-sm font-semibold">الرئيسية</a>
-                    <a href="#solutions" class="text-brand-muted hover:text-white transition-colors text-sm font-semibold">الحلول الهندسية</a>
+                    <a href="#about" class="text-brand-muted hover:text-white transition-colors text-sm font-semibold">من نحن</a>
+                    <a href="#solutions" class="text-brand-muted hover:text-white transition-colors text-sm font-semibold">قطاعات وحلول</a>
                     <a href="#consultation" class="text-brand-muted hover:text-white transition-colors text-sm font-semibold">المستشار الذكي</a>
                 </div>
 
@@ -132,11 +140,18 @@
     </nav>
 
     <!-- 2. Hero Section (Dark Mode) -->
-    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden min-h-screen flex items-center">
-        <!-- Background Grid Pattern -->
-        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-30"></div>
-        <!-- Gradient Overlay -->
-        <div class="absolute top-0 left-0 right-0 h-full bg-gradient-to-b from-brand-dark via-transparent to-brand-dark pointer-events-none"></div>
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex items-center min-h-[90vh]">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-[url('https://i.ibb.co/7LgpbHp/b1SXD.jpg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
+        
+        <!-- Primary Darkening Overlay for readability (Multiplies with background) -->
+        <div class="absolute inset-0 bg-brand-dark/80 mix-blend-multiply"></div>
+        
+        <!-- Gradient Overlay for smooth vertical blending -->
+        <div class="absolute inset-0 bg-gradient-to-b from-brand-dark/95 via-brand-dark/60 to-brand-dark pointer-events-none"></div>
+
+        <!-- Background Grid Pattern over the image -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-20"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -147,14 +162,16 @@
                           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-lightBlue opacity-75"></span>
                           <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-lightBlue"></span>
                         </span>
-                        أنظمة طاقة لا تنقطع
+                        Be AdvanTech
                     </div>
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-white">
-                        بنية تحتية كهربائية <br/>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-l from-brand-lightBlue to-brand-accent">بموثوقية هندسية تامة.</span>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-4 text-white">
+                        طاقة ذكية.. <br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-l from-brand-lightBlue to-brand-accent">لاعتمادية مستدامة</span>
                     </h1>
+                    <h2 class="text-xl md:text-2xl font-bold mb-6 text-brand-lightBlue">نبتكر اليوم.. لنضيء الغد</h2>
+                    
                     <p class="text-lg text-brand-muted leading-relaxed mb-8 font-light max-w-xl">
-                        نحن لا نبيع ألواحاً وبطاريات فحسب. نحن نصمم أنظمة طاقة شمسية ذكية تضمن استقرار الفولتية، تشغيل مكيفات الهواء بكفاءة تامة، وتبديل تلقائي غير ملحوظ عند انقطاع الشبكة. وداعاً لتلف الأجهزة وتكاليف الديزل.
+                        شركة سودانية رائدة متخصصة في هندسة وتطوير حلول الطاقة الشمسية والأنظمة الذكية. نُقدم منظومة خدمات متكاملة تدمج بين التكنولوجيا المتقدمة والمعايير العالمية، لنلبي تطلعات القطاعات السكنية، التجارية، الصناعية، والزراعية في السودان.
                     </p>
                     
                     <div class="flex flex-wrap gap-4">
@@ -163,7 +180,7 @@
                             <i data-lucide="zap" class="w-5 h-5 stroke-[2]"></i>
                         </a>
                         <a href="#solutions" class="glass-card hover:bg-white/5 text-white px-8 py-3.5 rounded-lg font-bold transition-all flex items-center gap-2 border border-white/10">
-                            <span>استكشف الحلول</span>
+                            <span>استكشف قطاعاتنا</span>
                         </a>
                     </div>
                 </div>
@@ -177,20 +194,20 @@
                         <div class="flex justify-between items-center mb-6 border-b border-white/5 pb-4">
                             <div class="flex items-center gap-2">
                                 <i data-lucide="activity" class="text-brand-lightBlue w-5 h-5"></i>
-                                <span class="font-bold text-sm tracking-wide text-brand-light">حالة النظام التشغيلي</span>
+                                <span class="font-bold text-sm tracking-wide text-brand-light">حالة النظام التشغيلي للمحطة</span>
                             </div>
-                            <span class="text-xs font-mono text-emerald-400 bg-emerald-400/10 px-2 py-1 rounded">ONLINE</span>
+                            <span class="text-xs font-mono text-emerald-400 bg-emerald-400/10 px-2 py-1 rounded">OPTIMAL</span>
                         </div>
 
                         <div class="space-y-5">
                             <!-- Metric 1 -->
                             <div>
                                 <div class="flex justify-between text-xs mb-2">
-                                    <span class="text-brand-muted">تنظيم الفولتية (Voltage Reg)</span>
-                                    <span class="font-mono text-brand-light">220V Constant</span>
+                                    <span class="text-brand-muted">إنتاجية الطاقة الشمسية (PV Yield)</span>
+                                    <span class="font-mono text-brand-light">98% Efficient</span>
                                 </div>
                                 <div class="w-full bg-white/5 rounded-full h-1.5">
-                                    <div class="bg-brand-lightBlue h-1.5 rounded-full w-full relative overflow-hidden">
+                                    <div class="bg-brand-lightBlue h-1.5 rounded-full w-[98%] relative overflow-hidden">
                                         <div class="absolute left-0 top-0 h-full w-full bg-white/20 animate-pulse"></div>
                                     </div>
                                 </div>
@@ -199,28 +216,28 @@
                             <!-- Metric 2 -->
                             <div>
                                 <div class="flex justify-between text-xs mb-2">
-                                    <span class="text-brand-muted">كفاءة تشغيل التكييف (Freon)</span>
-                                    <span class="font-mono text-brand-light">100% Optimal</span>
+                                    <span class="text-brand-muted">مستوى تخزين الطاقة (Battery SOC)</span>
+                                    <span class="font-mono text-brand-light">100% Full</span>
                                 </div>
                                 <div class="w-full bg-white/5 rounded-full h-1.5">
-                                    <div class="bg-brand-accent h-1.5 rounded-full w-[98%]"></div>
+                                    <div class="bg-brand-accent h-1.5 rounded-full w-full"></div>
                                 </div>
                             </div>
 
                             <!-- Grid Status -->
                             <div class="grid grid-cols-2 gap-4 pt-2">
                                 <div class="bg-brand-dark/50 rounded-lg p-3 border border-white/5">
-                                    <div class="text-[10px] text-brand-muted mb-1">الشبكة القومية</div>
+                                    <div class="text-[10px] text-brand-muted mb-1">توفير الديزل (Savings)</div>
                                     <div class="flex items-center gap-2">
-                                        <i data-lucide="power-off" class="w-4 h-4 text-red-400 stroke-[1.5]"></i>
-                                        <span class="font-mono text-sm text-red-400">Offline</span>
+                                        <i data-lucide="trending-down" class="w-4 h-4 text-emerald-400 stroke-[1.5]"></i>
+                                        <span class="font-mono text-sm text-emerald-400">Maximized</span>
                                     </div>
                                 </div>
                                 <div class="bg-brand-dark/50 rounded-lg p-3 border border-brand-lightBlue/20 shadow-[inset_0_0_10px_rgba(59,130,246,0.1)]">
-                                    <div class="text-[10px] text-brand-muted mb-1">المحول الشمسي (Inverter)</div>
+                                    <div class="text-[10px] text-brand-muted mb-1">الإدارة الذكية (Smart Control)</div>
                                     <div class="flex items-center gap-2">
-                                        <i data-lucide="sun" class="w-4 h-4 text-brand-accent stroke-[1.5]"></i>
-                                        <span class="font-mono text-sm text-brand-accent">Active Load</span>
+                                        <i data-lucide="cpu" class="w-4 h-4 text-brand-lightBlue stroke-[1.5]"></i>
+                                        <span class="font-mono text-sm text-brand-lightBlue">Active</span>
                                     </div>
                                 </div>
                             </div>
@@ -230,62 +247,192 @@
             </div>
         </div>
     </section>
+    
+    <!-- 2.5 About Section -->
+    <section id="about" class="py-16 bg-brand-dark border-t border-white/5 relative z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-card rounded-3xl p-8 md:p-12 reveal border border-white/10 relative overflow-hidden">
+                <!-- Decorative background elements inside the card -->
+                <div class="absolute -top-24 -right-24 w-64 h-64 bg-brand-lightBlue/10 rounded-full blur-[80px]"></div>
+                <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-brand-accent/10 rounded-full blur-[80px]"></div>
+                
+                <div class="relative z-10 text-center max-w-4xl mx-auto">
+                    <i data-lucide="shield-check" class="w-12 h-12 text-brand-accent mx-auto mb-6"></i>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6">رؤيتنا نحو الاستدامة</h2>
+                    <p class="text-brand-muted text-lg leading-relaxed font-light">
+                        نحن لا نبيع مجرد أنظمة طاقة؛ بل نبتكر حلولاً مستدامة وموثوقة تضمن استمرارية أعمالكم، وتوفر تكاليف التشغيل والوقود، وتدعم التحول نحو الطاقة النظيفة برؤية ذكية تواكب المستقبل.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 3. Sectors Solutions Section (Light Mode) -->
     <section id="solutions" class="py-24 bg-brand-light text-brand-dark relative z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-                <h2 class="text-3xl md:text-4xl font-black mb-4">هندسة متخصصة لكل قطاع</h2>
+                <h2 class="text-3xl md:text-4xl font-black mb-4">أقسام الشركة والقطاعات</h2>
                 <p class="text-slate-600 leading-relaxed font-normal">
-                    نصمم أنظمتنا بناءً على حسابات دقيقة للأحمال وطبيعة التشغيل، لضمان أعلى عائد على الاستثمار واستمرارية دون أعطال.
+                    نصمم أنظمتنا بناءً على حسابات دقيقة للأحمال وطبيعة التشغيل لكل قطاع، لضمان أعلى عائد على الاستثمار واستمرارية دون أعطال.
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
+            <!-- The 9 Sectors Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. القطاع السكني -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-100 group">
                     <div class="w-14 h-14 bg-blue-50 text-brand-blue rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-blue group-hover:text-white transition-colors">
                         <i data-lucide="home" class="w-7 h-7 stroke-[1.5]"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">القطاع السكني المتقدم</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                        تصميم يتحمل الأحمال الثقيلة كالطباخات ومكيفات الهواء مع نظام تحويل ذكي يحمي الأجهزة من تذبذب التيار الكهربائي.
+                    <h3 class="text-xl font-bold mb-2">1. القطاع السكني</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">راحة البال واستقرار المنزل</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        حلول طاقة شمسية ذكية تضمن استمرار الحياة والراحة داخل منزلك دون الانشغال بقطوعات الشبكة المتكررة.
                     </p>
-                    <ul class="space-y-2 mb-6 text-sm font-semibold text-slate-700">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> حماية متكاملة للأجهزة</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> تشغيل تكييف ثابت</li>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة متصلة ومنفصلة (On/Off-Grid)</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> حلول تخزين متطورة ومنازل ذكية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> سخانات مياه شمسية وتقليل الفاتورة</li>
                     </ul>
                 </div>
 
-                <!-- Card 2 -->
+                <!-- 2. القطاع التجاري -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-200 group">
                     <div class="w-14 h-14 bg-amber-50 text-brand-accent rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-accent group-hover:text-white transition-colors">
-                        <i data-lucide="droplet" class="w-7 h-7 stroke-[1.5]"></i>
+                        <i data-lucide="building-2" class="w-7 h-7 stroke-[1.5]"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">القطاع الزراعي والري</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                        حلول لتشغيل الغطاسات والمضخات العميقة مباشرة من الألواح، مما يلغي تكاليف الوقود تماماً ويضمن رياً مستمراً.
+                    <h3 class="text-xl font-bold mb-2">2. القطاع التجاري</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">استمرارية أعمالك بلا توقف</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        نحمي استثماراتك التجارية (شركات، أسواق، فنادق، ومولات) من خسائر انقطاع التيار عبر حلول طاقة مرنة.
                     </p>
-                    <ul class="space-y-2 mb-6 text-sm font-semibold text-slate-700">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> صفر تكلفة تشغيل للوقود</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> محولات (VFD) متقدمة للمضخات</li>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> محطات طاقة تجارية مخصصة</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة الدعم والنسخ الاحتياطي</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> محطات الشحن وعقود تشغيل وصيانة</li>
                     </ul>
                 </div>
 
-                <!-- Card 3 -->
+                <!-- 3. القطاع الصناعي -->
                 <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-300 group">
                     <div class="w-14 h-14 bg-slate-50 text-slate-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-slate-800 group-hover:text-white transition-colors">
-                        <i data-lucide="building-2" class="w-7 h-7 stroke-[1.5]"></i>
+                        <i data-lucide="factory" class="w-7 h-7 stroke-[1.5]"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">المشاريع والمراكز الحساسة</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
-                        للعيادات، المختبرات، والمراكز البيانية. أنظمة احتياطية ذاتية التحويل لضمان عدم انقطاع الخدمة لثانية واحدة.
+                    <h3 class="text-xl font-bold mb-2">3. القطاع الصناعي</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">تصفير أو تصغير تكاليف الديزل</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        حلول متقدمة لخفض تكلفة التشغيل الحرجة واستبدال المولدات التقليدية ذات التكلفة العالية.
                     </p>
-                    <ul class="space-y-2 mb-6 text-sm font-semibold text-slate-700">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> تحويل لحظي دون انقطاع</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 stroke-[2.5]"></i> بنوك بطاريات ليثيوم عالية السعة</li>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> تشغيل خطوط الإنتاج بالطاقة الشمسية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة هجينة ومراقبة تحليلية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> شبكات الميكروجريد الصناعية المستقلة</li>
                     </ul>
                 </div>
+
+                <!-- 4. القطاع الزراعي -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-100 group">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                        <i data-lucide="tree-pine" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">4. القطاع الزراعي</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">عصب الإنتاج الاقتصادي السوداني</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        حلول نحو زراعة مستدامة عبر استغلال الموارد الشمسية لرفع كفاءة الري والحصاد.
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> مضخات المياه الشمسية للآبار</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة الري الذكي وتبريد المحاصيل</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> تنمية المشاريع خارج نطاق الشبكة</li>
+                    </ul>
+                </div>
+
+                <!-- 5. قطاع الرعاية الصحية -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-200 group">
+                    <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-rose-600 group-hover:text-white transition-colors">
+                        <i data-lucide="heart-pulse" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">5. الرعاية الصحية والمستشفيات</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">إنقاذ الحياة لا يحتمل الانتظار</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        أنظمة طاقة فائقة الاعتمادية تضمن تشغيل المنشآت والمختبرات بلا ثانية انقطاع واحدة.
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة طاقة احتياطية حرجة</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> حماية الأجهزة الطبية الحساسة</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة عدم انقطاع التيار المركزية UPS</li>
+                    </ul>
+                </div>
+
+                <!-- 6. مشاريع الميكروجريد -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-300 group">
+                    <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                        <i data-lucide="network" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">6. الميكروجريد والشبكات المصغرة</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">تنمية المجتمعات</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        توفير حلول طاقة متكاملة للمجمعات السكنية المعزولة، المدن الناشئة، والقرى.
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> شبكات ميكروجريد مستقلة وذكية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> أنظمة هجينة وحلول قرى ذكية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> إدارة مركزية لتوزيع الطاقة</li>
+                    </ul>
+                </div>
+
+                <!-- 7. المشاريع الحكومية -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-100 group">
+                    <div class="w-14 h-14 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i data-lucide="landmark" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">7. الحكومية والبنية التحتية</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">شراكة من أجل التنمية</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        نساهم مع القطاع العام والهيئات التنموية في بناء بنية تحتية مستدامة.
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> إنارة الشوارع بالطاقة الشمسية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> تغذية المرافق والمحطات المركزية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> حلول طاقة لمشاريع المياه والصرف</li>
+                    </ul>
+                </div>
+
+                <!-- 8. الاستشارات الهندسية -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-200 group">
+                    <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <i data-lucide="line-chart" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">8. الاستشارات الهندسية</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">العقل المدبر لمشروعك</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        نرافقكم من الفكرة للتنفيذ لضمان أعلى عائد على الاستثمار (ROI).
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> دراسات جدوى فنية واقتصادية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> تصميم متقدم بأحدث البرامج</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> إدارة المشاريع والتدقيق الطاقي</li>
+                    </ul>
+                </div>
+
+                <!-- 9. التشغيل والصيانة -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 reveal delay-300 group">
+                    <div class="w-14 h-14 bg-cyan-50 text-cyan-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-cyan-600 group-hover:text-white transition-colors">
+                        <i data-lucide="wrench" class="w-7 h-7 stroke-[1.5]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">9. التشغيل والصيانة (O&M)</h3>
+                    <h4 class="text-sm font-semibold text-brand-lightBlue mb-3">استدامة الاستثمار</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        خدمات ما بعد البيع والدعم الفني لضمان عمل أنظمتكم بأقصى كفاءة.
+                    </p>
+                    <ul class="space-y-2 text-xs font-semibold text-slate-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> صيانة وقائية وعلاجية دورية</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> مراقبة عن بُعد وإصدار تقارير</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i> دعم فني واستجابة طارئة 24/7</li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </section>
@@ -336,6 +483,10 @@
                                 <span>استشارة لتشغيل غطاس زراعي</span>
                                 <i data-lucide="chevron-left" class="w-4 h-4 text-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity"></i>
                             </button>
+                            <button onclick="handleChat('factory')" class="text-right text-sm bg-brand-blue/30 hover:bg-brand-blue/50 border border-brand-lightBlue/30 text-white rounded-xl px-4 py-3 transition-colors flex justify-between items-center group">
+                                <span>استشارة لتشغيل مصنع أو منشأة</span>
+                                <i data-lucide="chevron-left" class="w-4 h-4 text-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -363,16 +514,22 @@
                                 </div>
                                 <div>
                                     <label class="block text-xs font-bold text-slate-700 mb-1.5">الولاية / المدينة</label>
-                                    <input type="text" required class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-lightBlue focus:ring-2 focus:ring-brand-lightBlue/20 transition-all placeholder-slate-400" placeholder="مثال: الخرطوم، بورتسودان">
+                                    <input type="text" required class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-lightBlue focus:ring-2 focus:ring-brand-lightBlue/20 transition-all placeholder-slate-400" placeholder="مثال: الخرطوم، بورتسودان، مدني">
                                 </div>
                             </div>
 
                             <div>
-                                <label class="block text-xs font-bold text-slate-700 mb-1.5">نوع القطاع المستهدف</label>
-                                <select class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-lightBlue focus:ring-2 focus:ring-brand-lightBlue/20 transition-all text-slate-700 cursor-pointer appearance-none">
-                                    <option>قطاع سكني (منزل / فيلا)</option>
-                                    <option>قطاع زراعي (ري / غطاسات)</option>
-                                    <option>قطاع تجاري / طبي</option>
+                                <label class="block text-xs font-bold text-slate-700 mb-1.5">القطاع المستهدف</label>
+                                <select id="sector-select" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-lightBlue focus:ring-2 focus:ring-brand-lightBlue/20 transition-all text-slate-700 cursor-pointer appearance-none">
+                                    <option value="القطاع السكني">القطاع السكني (منزل / فيلا)</option>
+                                    <option value="القطاع التجاري">القطاع التجاري</option>
+                                    <option value="القطاع الصناعي">القطاع الصناعي</option>
+                                    <option value="القطاع الزراعي">القطاع الزراعي (ري / غطاسات)</option>
+                                    <option value="قطاع الرعاية الصحية">الرعاية الصحية والمستشفيات</option>
+                                    <option value="مشاريع الميكروجريد">مشاريع الميكروجريد</option>
+                                    <option value="المشاريع الحكومية">المشاريع الحكومية</option>
+                                    <option value="الاستشارات الهندسية">الاستشارات الهندسية</option>
+                                    <option value="التشغيل والصيانة">التشغيل والصيانة (O&M)</option>
                                 </select>
                             </div>
 
@@ -409,7 +566,7 @@
             </div>
             
             <div class="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-light text-slate-500">
-                <p>&copy; 2026 ADVANtech Engineering. جميع الحقوق محفوظة.</p>
+                <p>&copy; 2026 Be ADVANtech. جميع الحقوق محفوظة.</p>
                 <div class="flex gap-4">
                     <a href="#" class="hover:text-brand-lightBlue transition-colors">سياسة الخصوصية</a>
                     <a href="#" class="hover:text-brand-lightBlue transition-colors">الشروط والأحكام</a>
@@ -460,9 +617,26 @@
         function handleChat(type) {
             const chatBody = document.getElementById('chat-body');
             const chatOptions = document.getElementById('chat-options');
+            const sectorSelect = document.getElementById('sector-select');
             
-            // Define user text based on selection
-            let userText = type === 'home' ? 'احسب أحمال منزلي (مكيفات، ثلاجات...)' : 'استشارة لتشغيل غطاس زراعي';
+            let userText = '';
+            let targetSector = '';
+            
+            if (type === 'home') {
+                userText = 'احسب أحمال منزلي (مكيفات، ثلاجات...)';
+                targetSector = 'القطاع السكني';
+            } else if (type === 'farm') {
+                userText = 'استشارة لتشغيل غطاس زراعي';
+                targetSector = 'القطاع الزراعي';
+            } else if (type === 'factory') {
+                userText = 'استشارة لتشغيل مصنع أو منشأة';
+                targetSector = 'القطاع الصناعي';
+            }
+            
+            // Smart Form Integration: Auto-select sector
+            if (sectorSelect && targetSector) {
+                sectorSelect.value = targetSector;
+            }
             
             // Render User Message
             const userMsgHtml = `
@@ -502,9 +676,11 @@
 
                 let botReply = '';
                 if(type === 'home') {
-                    botReply = 'ممتاز. لتصميم نظام سكني مثالي، نحتاج لمعرفة الآتي: كم عدد مكيفات الهواء لديك (وبكم طن)؟ وما هي الأجهزة الأساسية التي تود تشغيلها وقت انقطاع الشبكة؟ يمكنك تدوين ذلك في استمارة "المعاينة الهندسية" وسيقوم مهندسونا بحسابها بدقة لك.';
-                } else {
-                    botReply = 'تصميم أنظمة الري الزراعي يتطلب دقة عالية. نحتاج لمعرفة عمق البئر، قدرة الغطاس (بالحصان)، وكمية المياه المطلوبة يومياً. يرجى ملء النموذج أدناه لاختيار المحول الشمسي (VFD) الأنسب لمشروعك.';
+                    botReply = 'ممتاز. لتصميم نظام سكني مثالي، نحتاج لمعرفة الآتي: كم عدد مكيفات الهواء لديك (وبكم طن)؟ وما هي الأجهزة الأساسية التي تود تشغيلها وقت انقطاع الشبكة؟ لقد قمت بتحديد "القطاع السكني" لك في النموذج، يمكنك استكماله الآن.';
+                } else if (type === 'farm') {
+                    botReply = 'تصميم أنظمة الري الزراعي يتطلب دقة عالية. نحتاج لمعرفة عمق البئر، قدرة الغطاس (بالحصان)، وكمية المياه المطلوبة يومياً. لقد قمت بتحديد "القطاع الزراعي" لك في النموذج، يرجى ملؤه لاختيار الحل الأنسب.';
+                } else if (type === 'factory') {
+                    botReply = 'تقليل تكاليف الديزل في المصانع هو تخصصنا. نحتاج لمعرفة متوسط الاستهلاك الشهري، طبيعة الأحمال، وساعات التشغيل. لقد قمت بتحديد "القطاع الصناعي" لك، يرجى إكمال النموذج وسيقوم مهندسونا بزيارتكم.';
                 }
 
                 const botMsgHtml = `
